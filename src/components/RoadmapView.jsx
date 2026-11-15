@@ -101,9 +101,9 @@ function RoadmapView({
                   <span className="stage-duration">{stage.duration}</span>
                 </div>
                 <div className="stage-progress-meta">
-                  <strong>{stagePercent}%</strong>
-                  <span>
-                    {stageCompletedCount}/{stage.topics.length} topics
+                  <strong className="stage-percent">{stagePercent}%</strong>
+                  <span className="stage-count">
+                    {stageCompletedCount} / {stage.topics.length} topics
                   </span>
                 </div>
               </div>
