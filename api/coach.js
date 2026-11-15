@@ -1,4 +1,6 @@
 const ALLOWED_ORIGINS = [
+  'https://ambitionmap-ai.vercel.app',
+  'https://ambitionmap-ai-ochre-rho.vercel.app',
   'https://career-compass-ai-ochre-rho.vercel.app',
   'http://localhost:5173',
   'http://127.0.0.1:5173',
@@ -201,7 +203,6 @@ function normalizePlan(parsed, student, career) {
     ? parsed.thirtyDayPlan.slice(0, 4)
     : []
 
-  // Require a complete 4-week plan; otherwise use fallback weeks.
   const hasCompletePlan =
     weeks.length === 4 && weeks.every(week => isValidWeek(week))
 

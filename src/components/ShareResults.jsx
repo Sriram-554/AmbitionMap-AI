@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+const LIVE_URL = 'https://ambitionmap-ai.vercel.app'
+
 function buildShareText(firstName, recommendations, collegeName) {
   const lines = [
     `${firstName}'s AmbitionMap AI results`,
@@ -11,7 +13,7 @@ function buildShareText(firstName, recommendations, collegeName) {
         `${index + 1}. ${career.title} (${career.score}% match)`
     ),
     '',
-    'Explore your path: https://career-compass-ai-ochre-rho.vercel.app',
+    `Explore your path: ${LIVE_URL}`,
   ].filter(Boolean)
 
   return lines.join('\n')

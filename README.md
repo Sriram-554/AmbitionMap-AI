@@ -2,7 +2,10 @@
 
 A student-focused career guidance web app that helps you discover tech career paths from your skills and interests, then gives you a practical learning plan and roadmap to get there.
 
-**Live demo:** [https://career-compass-ai-ochre-rho.vercel.app](https://career-compass-ai-ochre-rho.vercel.app)
+**Live demo:** [https://ambitionmap-ai.vercel.app](https://ambitionmap-ai.vercel.app)
+
+> If the new Vercel project name is not applied yet, the previous URL may still work temporarily:
+> https://career-compass-ai-ochre-rho.vercel.app
 
 ---
 
@@ -34,7 +37,7 @@ Students can:
 
 ## Project URL
 
-https://career-compass-ai-ochre-rho.vercel.app
+https://ambitionmap-ai.vercel.app
 
 ---
 
