@@ -108,7 +108,6 @@ function Assessment({ onBack }) {
     }
   }, [user])
 
-  // If auth user becomes null (logout), reset visible assessment state
   useEffect(() => {
     if (user) return
     const local = loadProfile()
@@ -283,7 +282,7 @@ function Assessment({ onBack }) {
   const header = (
     <header className="assessment-header">
       <h2>
-        ✦ CareerCompass<span>AI</span>
+        ✦ PathPilot<span>AI</span>
       </h2>
       <div className="header-actions">
         <AuthButton className="header-link" />
