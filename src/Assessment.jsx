@@ -282,7 +282,7 @@ function Assessment({ onBack }) {
   const header = (
     <header className="assessment-header">
       <h2>
-        ✦ PathPilot<span>AI</span>
+        ✦ AmbitionMap<span>AI</span>
       </h2>
       <div className="header-actions">
         <AuthButton className="header-link" />

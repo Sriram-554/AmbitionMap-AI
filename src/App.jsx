@@ -38,7 +38,7 @@ function App() {
       <nav className="navbar">
         <a href="#" className="logo" onClick={(e) => e.preventDefault()}>
           <span className="logo-icon">✦</span>
-          PathPilot<span className="ai">AI</span>
+          AmbitionMap<span className="ai">AI</span>
         </a>
 
         <div className="nav-links">
@@ -73,7 +73,7 @@ function App() {
             </h1>
 
             <p className="hero-description">
-              Confused about your career? PathPilot AI helps you discover
+              Confused about your career? AmbitionMap AI helps you discover
               your strengths, explore career opportunities and build
               a personalized roadmap towards your dream career.
             </p>
@@ -209,7 +209,7 @@ function App() {
           Get Started <span>→</span>
         </button>
         <p>Helping students turn their potential into possibilities.</p>
-        <span>© 2026 PathPilot AI. All rights reserved.</span>
+        <span>© 2026 AmbitionMap AI. All rights reserved.</span>
       </footer>
     </div>
   )

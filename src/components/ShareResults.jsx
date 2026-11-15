@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function buildShareText(firstName, recommendations, collegeName) {
   const lines = [
-    `${firstName}'s PathPilot AI results`,
+    `${firstName}'s AmbitionMap AI results`,
     collegeName ? `College: ${collegeName}` : null,
     '',
     'Top career matches:',
@@ -34,7 +34,7 @@ function ShareResults({ firstName, recommendations, collegeName }) {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'My PathPilot AI results',
+          title: 'My AmbitionMap AI results',
           text,
         })
         setStatus('Share sheet opened')

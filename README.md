@@ -1,16 +1,14 @@
-# PathPilot AI
+# AmbitionMap AI
 
 A student-focused career guidance web app that helps you discover tech career paths from your skills and interests, then gives you a practical learning plan and roadmap to get there.
 
 **Live demo:** [https://career-compass-ai-ochre-rho.vercel.app](https://career-compass-ai-ochre-rho.vercel.app)
 
-> Formerly prototyped under the working name CareerCompass AI. The product is now branded **PathPilot AI**.
-
 ---
 
 ## Project Description
 
-PathPilot AI is a full-stack career discovery platform for college students. It combines a structured assessment, explainable career recommendations, AI coaching plans, and stage-by-stage learning roadmaps so students can move from uncertainty to a clear next step.
+AmbitionMap AI is a full-stack career discovery platform for college students. It combines a structured assessment, explainable career recommendations, AI coaching plans, and stage-by-stage learning roadmaps so students can move from uncertainty to a clear next step.
 
 Students can:
 1. Complete a skills and interests assessment
