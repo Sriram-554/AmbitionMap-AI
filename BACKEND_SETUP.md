@@ -1,6 +1,6 @@
 # Backend Setup (Supabase)
 
-CareerCompass AI now supports optional accounts and cloud sync using Supabase.
+AmbitionMap AI supports optional accounts and cloud sync using Supabase.
 
 Guests still work with localStorage. Logged-in users sync profile + roadmap progress across devices.
 
@@ -9,7 +9,7 @@ Guests still work with localStorage. Logged-in users sync profile + roadmap prog
 1. Go to [https://supabase.com](https://supabase.com)
 2. Sign in / sign up
 3. Click **New project**
-4. Choose a name (e.g. `careercompass`)
+4. Choose a name (e.g. `ambitionmap-ai`)
 5. Set a database password (save it somewhere safe)
 6. Create the project and wait until it is ready
 
@@ -80,7 +80,7 @@ Then redeploy.
 Also add your Vercel domain under Supabase:
 
 **Authentication → URL Configuration**
-- Site URL: your Vercel URL
+- Site URL: your Vercel URL (e.g. `https://ambitionmap-ai.vercel.app` or your current production domain)
 - Redirect URLs: your Vercel URL and `http://localhost:5173`
 
 ## What gets synced

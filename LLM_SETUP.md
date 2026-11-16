@@ -1,6 +1,6 @@
 # Real LLM Coach Setup (Groq)
 
-CareerCompass generates coach plans with a real LLM through a secure Vercel API route.
+AmbitionMap AI generates coach plans with a real LLM through a secure Vercel API route.
 
 - Frontend calls `/api/coach`
 - API key stays on the server (never in the browser)

@@ -1,10 +1,11 @@
 # Custom Domain Setup
 
-Your app is live at:
+Your app is live on Vercel. Current domains may include:
 
-https://career-compass-ai-ochre-rho.vercel.app
+- https://ambitionmap-ai.vercel.app
+- https://career-compass-ai-ochre-rho.vercel.app (legacy project domain)
 
-To use a professional domain like `careercompass.ai`:
+To use a professional domain like `ambitionmap.ai`:
 
 ## 1. Buy a domain
 Use Namecheap, Cloudflare Registrar, Google/Squarespace Domains, or GoDaddy.
