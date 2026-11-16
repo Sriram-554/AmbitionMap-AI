@@ -4,7 +4,9 @@ A student-focused career guidance web app that helps you discover tech career pa
 
 **Live demo:** [https://ambitionmap-ai.vercel.app](https://ambitionmap-ai.vercel.app)
 
-> If the new Vercel project name is not applied yet, the previous URL may still work temporarily:
+**GitHub:** [https://github.com/Sriram-554/AmbitionMap-AI](https://github.com/Sriram-554/AmbitionMap-AI)
+
+> If `ambitionmap-ai.vercel.app` is not connected yet, the previous domain may still work:
 > https://career-compass-ai-ochre-rho.vercel.app
 
 ---
@@ -87,8 +89,8 @@ https://ambitionmap-ai.vercel.app
 ## Getting started
 
 ```bash
-git clone https://github.com/Sriram-554/CareerCompass-AI.git
-cd CareerCompass-AI
+git clone https://github.com/Sriram-554/AmbitionMap-AI.git
+cd AmbitionMap-AI
 npm install
 npm run dev
 ```
